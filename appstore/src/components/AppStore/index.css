@@ -1,0 +1,112 @@
+/* Write your CSS here */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* App Store Container */
+  .app-store {
+    padding: 20px;
+    border-radius: 12px;
+    width: 50vw;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .listTabs {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    transition: 0.3s;
+  }
+  
+  .listTabs:hover {
+    color: #007bff;
+  }
+  
+  .active-tab {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* App Grid */
+  .apps-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    padding: 0;
+  }
+  
+  /* App Item */
+  .app-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .app-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+  }
+  
+  .app-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
