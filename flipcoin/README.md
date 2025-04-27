@@ -26,11 +26,8 @@ Welcome to **Flip Toss** — a simple and fun React project where you can toss a
 ---
 
 ## 📸 Screenshots
-| Toss the coin! | Result Tracking |
-|:---:|:---:|
-| *(Insert Toss Image)* | *(Insert Result Tracking Image)* |
+![image](https://github.com/user-attachments/assets/3a5dcccb-92cb-4f8f-a9c7-be2f587695f3)
 
-*(You can add screenshots later if you want!)*
 
 ---
 
