@@ -26,7 +26,8 @@ Welcome to **Emojiverse** — a React-based emoji memory game where you challeng
 ---
 
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/your-image-link)  
+![image](https://github.com/user-attachments/assets/ac517431-af2b-4d6f-af33-d22ae8c71644)
+
 <!-- Replace with your actual screenshot URL -->
 
 ---
