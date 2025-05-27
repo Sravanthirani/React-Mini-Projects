@@ -1,0 +1,27 @@
+.liststyling {
+  list-style-type: none;
+}
+
+.emoji-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-card:hover {
+  transform: scale(1.05);
+}
+
+.emoji-img {
+  width: 60px;
+  height: 60px;
+}

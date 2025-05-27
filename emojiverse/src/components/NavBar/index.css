@@ -1,0 +1,39 @@
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(161, 145, 179, 0.5) 0%,
+    rgba(178, 101, 209, 0.5) 100%
+  );
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.side-side {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 12px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scores p {
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
